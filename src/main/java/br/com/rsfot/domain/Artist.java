@@ -30,4 +30,8 @@ public class Artist {
     public String getOriginCountry() {
         return originCountry;
     }
+
+    public boolean isFrom(String country) {
+        return originCountry.equalsIgnoreCase(country);
+    }
 }

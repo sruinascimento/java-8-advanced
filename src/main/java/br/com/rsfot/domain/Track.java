@@ -16,4 +16,12 @@ public class Track {
     public float getDurationInMinutes() {
         return durationInMinutes;
     }
+
+    @Override
+    public String toString() {
+        return "Track{" +
+                "name='" + name + '\'' +
+                ", durationInMinutes=" + durationInMinutes +
+                '}';
+    }
 }
